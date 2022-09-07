@@ -15,7 +15,7 @@ else
   echo '目录不存在，请先创建$gitGroup目录'
   exit
 fi
-
+#目录切换
 cd $gitGroup
 echo $PWD
 #判断是否有当前git文件
