@@ -1,8 +1,10 @@
 #!/bin/bash
-num="0"
+num="3"
 echo $num
 if [ "$num" = "0" ]; then
-  echo "ok"
+  echo "ok 0"
+elif [ "$num" = "1" ]; then
+  echo "ok 1"
 else
   echo "no"
 fi
@@ -18,7 +20,6 @@ fi
 #<=  小于等于(需要双括号),如:(("$a" <= "$b"))
 #>   大于(需要双括号),如:(("$a" > "$b"))
 #>=  大于等于(需要双括号),如:(("$a" >= "$b"))
-
 
 #字符串校验
 #判断字符串是否相等
