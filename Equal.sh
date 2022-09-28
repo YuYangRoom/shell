@@ -1,6 +1,5 @@
 #!/bin/bash
-num="3"
-echo $num
+num="1"
 if [ "$num" = "0" ]; then
   echo "ok 0"
 elif [ "$num" = "1" ]; then
@@ -9,6 +8,10 @@ else
   echo "no"
 fi
 
+n=4
+if [ $n == 4 ]; then
+  echo ok $n
+fi
 # 数值校验 注意括号的写法、空格
 #-eq 等于,如:if [ "$a" -eq "$b" ]
 #-ne 不等于,如:if [ "$a" -ne "$b" ]
