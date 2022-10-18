@@ -1,6 +1,6 @@
 #!/bin/sh
 num=0
-baseUrl="url"
+baseUrl="xxx"
 while read line; do
   clu=$line
   clu=$(echo $clu | sed 's/|//g')
@@ -24,3 +24,15 @@ while read line; do
   #  echo ${#s2}
 done <db.txt
 echo "成功清理:" $num
+
+#while循环
+#cat test.txt | while read line
+#do
+#    echo $line
+#done
+
+##for循环
+#for line in `cat  test.txt`
+#do
+#    echo $line
+#done
